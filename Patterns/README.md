@@ -62,10 +62,10 @@ This repository contains **23 pattern programs** written in **Java**, each demon
 cd /home/jayaditya/DSA/Patterns
 
 # Compile a pattern
-javac pattern1.java
+javac SolidSquarePattern.java
 
 # Run the pattern
-java pattern1
+java SolidSquarePattern
 ```
 
 ### Modifying Pattern Output

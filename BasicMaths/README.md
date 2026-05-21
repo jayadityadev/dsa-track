@@ -5,13 +5,13 @@ Each file focuses on one classic number-based problem and demonstrates one or mo
 
 ## Workspace Structure
 
-- `countDigits.java` - Count digits in an integer (loop, log, and string conversion methods)
-- `reverseNum.java` - Reverse digits of a number
-- `checkPalindrome.java` - Check if a number is palindrome
-- `checkPrime.java` - Check if a number is prime and print primes in a range
-- `checkArmstrong.java` - Check if a number is an Armstrong number
-- `Divisors.java` - Find and return all divisors of a number in sorted order
-- `GCD.java` - Compute GCD using brute force and Euclidean algorithm
+- `DigitCounter.java` - Count digits in an integer (loop, log, and string conversion methods)
+- `ReverseNumber.java` - Reverse digits of a number
+- `PalindromeCheck.java` - Check if a number is palindrome
+- `PrimeCheck.java` - Check if a number is prime and print primes in a range
+- `ArmstrongNumberCheck.java` - Check if a number is an Armstrong number
+- `FindDivisors.java` - Find and return all divisors of a number in sorted order
+- `GreatestCommonDivisor.java` - Compute GCD using brute force and Euclidean algorithm
 
 ## Prerequisites
 
@@ -22,15 +22,15 @@ Each file focuses on one classic number-based problem and demonstrates one or mo
 Compile and run any file with:
 
 ```bash
-javac countDigits.java
-java countDigits
+javac DigitCounter.java
+java DigitCounter
 ```
 
-Replace `countDigits` with the class/file you want to execute.
+Replace `DigitCounter` with the class/file you want to execute.
 
 ## Problem-Wise Documentation
 
-### 1) Count Digits (`countDigits.java`)
+### 1) Count Digits (`DigitCounter.java`)
 
 Problem:
 Given an integer, return how many digits it contains.
@@ -64,7 +64,7 @@ Example (`12345`):
 
 ---
 
-### 2) Reverse Number (`reverseNum.java`)
+### 2) Reverse Number (`ReverseNumber.java`)
 
 Problem:
 Reverse the digits of an integer.
@@ -86,7 +86,7 @@ Example (`12`):
 
 ---
 
-### 3) Check Palindrome Number (`checkPalindrome.java`)
+### 3) Check Palindrome Number (`PalindromeCheck.java`)
 
 Problem:
 Check whether a number reads the same forwards and backwards.
@@ -109,7 +109,7 @@ Note:
 
 ---
 
-### 4) Check Prime (`checkPrime.java`)
+### 4) Check Prime (`PrimeCheck.java`)
 
 Problem:
 Determine whether a number is prime.
@@ -128,7 +128,7 @@ Main method behavior:
 
 ---
 
-### 5) Check Armstrong Number (`checkArmstrong.java`)
+### 5) Check Armstrong Number (`ArmstrongNumberCheck.java`)
 
 Problem:
 A number is Armstrong if the sum of each digit raised to the power of total digits equals the number itself.
@@ -149,7 +149,7 @@ true
 
 ---
 
-### 6) Print Divisors (`Divisors.java`)
+### 6) Print Divisors (`FindDivisors.java`)
 
 Problem:
 Find all divisors of a number.
@@ -174,7 +174,7 @@ Example (`36`):
 
 ---
 
-### 7) GCD (`GCD.java`)
+### 7) GCD (`GreatestCommonDivisor.java`)
 
 Problem:
 Compute greatest common divisor of two integers.

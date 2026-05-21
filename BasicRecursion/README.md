@@ -5,14 +5,14 @@ Each file focuses on one classic pattern used in Data Structures and Algorithms.
 
 ## Workspace Structure
 
-- `recursion1.java` - Print a name `N` times
-- `recursion2.java` - Print numbers from `1` to `N`
-- `recursion3.java` - Print numbers from `N` to `1`
-- `recursion4.java` - Sum of first `N` natural numbers
-- `recursion5.java` - Factorial of a number
-- `recursion6.java` - Reverse an array (multiple approaches, including recursion)
-- `recursion7.java` - Check palindrome string (iterative + recursive)
-- `recursion8.java` - Fibonacci series up to `N`th term
+- `PrintNameNTimes.java` - Print a name `N` times
+- `Print1ToN.java` - Print numbers from `1` to `N`
+- `PrintNTo1.java` - Print numbers from `N` to `1`
+- `SumFirstNNumbers.java` - Sum of first `N` natural numbers
+- `Factorial.java` - Factorial of a number
+- `ReverseArray.java` - Reverse an array (multiple approaches, including recursion)
+- `StringPalindrome.java` - Check palindrome string (iterative + recursive)
+- `FibonacciRecursive.java` - Fibonacci series up to `N`th term
 
 ## Prerequisites
 
@@ -23,15 +23,15 @@ Each file focuses on one classic pattern used in Data Structures and Algorithms.
 Compile and run any file with:
 
 ```bash
-javac recursion1.java
-java recursion1
+javac PrintNameNTimes.java
+java PrintNameNTimes
 ```
 
-Replace `recursion1` with the class/file you want to execute.
+Replace `PrintNameNTimes` with the class/file you want to execute.
 
 ## Problem-Wise Documentation
 
-### 1) Print Name N Times (`recursion1.java`)
+### 1) Print Name N Times (`PrintNameNTimes.java`)
 
 Problem:
 Given an integer `N`, print your name `N` times.
@@ -51,7 +51,7 @@ Jayaditya Jayaditya Jayaditya
 
 ---
 
-### 2) Print 1 to N (`recursion2.java`)
+### 2) Print 1 to N (`Print1ToN.java`)
 
 Problem:
 Given `N`, print numbers from `1` to `N`.
@@ -75,7 +75,7 @@ Example for `N = 5`:
 
 ---
 
-### 3) Print N to 1 (`recursion3.java`)
+### 3) Print N to 1 (`PrintNTo1.java`)
 
 Problem:
 Given `N`, print numbers from `N` down to `1`.
@@ -99,7 +99,7 @@ Example for `N = 5`:
 
 ---
 
-### 4) Sum of First N Natural Numbers (`recursion4.java`)
+### 4) Sum of First N Natural Numbers (`SumFirstNNumbers.java`)
 
 Problem:
 Find `1 + 2 + ... + N`.
@@ -124,7 +124,7 @@ Example for `N = 5`:
 
 ---
 
-### 5) Factorial (`recursion5.java`)
+### 5) Factorial (`Factorial.java`)
 
 Problem:
 Given `X`, print `X!`.
@@ -144,7 +144,7 @@ Example for `N = 5`:
 
 ---
 
-### 6) Reverse Array (`recursion6.java`)
+### 6) Reverse Array (`ReverseArray.java`)
 
 Problem:
 Reverse an array and print it.
@@ -174,7 +174,7 @@ Output: [5, 4, 3, 2, 1]
 
 ---
 
-### 7) Palindrome Check (`recursion7.java`)
+### 7) Palindrome Check (`StringPalindrome.java`)
 
 Problem:
 Check whether a string is palindrome.
@@ -202,7 +202,7 @@ Output: true
 
 ---
 
-### 8) Fibonacci Series (`recursion8.java`)
+### 8) Fibonacci Series (`FibonacciRecursive.java`)
 
 Problem:
 Print Fibonacci numbers up to `N`th term.
