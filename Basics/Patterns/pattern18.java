@@ -1,4 +1,4 @@
-/* Pattern 19
+/* Pattern 18
 
 E 
 D E 
@@ -8,7 +8,7 @@ A B C D E
 
 */
 
-public class pattern19 {
+public class pattern18 {
     public static void printPattern(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = n-i; j < n+1; j++) {

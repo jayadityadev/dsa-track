@@ -1,17 +1,17 @@
-/* Pattern 16
+/* Pattern 15
 
-A B C D E 
-A B C D 
-A B C 
-A B 
 A
+A B
+A B C
+A B C D
+A B C D E 
 
 */
 
-public class pattern16 {
+public class patternExtra {
     public static void printPattern(int n) {
         for (int i = 0; i < n; i++) {
-            for (int j = 'A'; j < n-i+'A'; j++) // 'A' = 65
+            for (int j = 'A'; j < i+1+'A'; j++) // 'A' = 65
                 System.out.print((char)j + " ");
             System.out.println();
         }

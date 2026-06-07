@@ -1,4 +1,4 @@
-/* Pattern 18
+/* Pattern 17
 
         A 
       A B A 
@@ -8,7 +8,7 @@ A B C D E D C B A
 
 */
 
-public class pattern18 {
+public class pattern17 {
     public static void printPattern(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n-i-1; j++) {

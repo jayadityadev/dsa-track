@@ -1,4 +1,4 @@
-/* Pattern 21
+/* Pattern 20
 
 *                 * 
 * *             * * 
@@ -12,7 +12,7 @@
 
 */
 
-public class pattern21 {
+public class pattern20 {
     public static void printPattern(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i+1; j++) {

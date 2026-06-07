@@ -1,4 +1,4 @@
-/* Pattern 23
+/* Pattern 22
 
 5 5 5 5 5 5 5 5 5
 5 4 4 4 4 4 4 4 5
@@ -12,7 +12,7 @@
 
 */
 import java.lang.Math;
-public class pattern23 {
+public class pattern22 {
     public static void printPattern(int n) {
         for (int i = 0; i < 2*n-1; i++) {
             for (int j = 0; j < 2*n-1; j++) {
