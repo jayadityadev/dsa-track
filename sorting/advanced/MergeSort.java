@@ -1,6 +1,10 @@
+package sorting.advanced;
+
+import utils.AbstractSort;
+
 // Divide and Merge (Conquer)
 
-public class MergeSort extends SortUtils {
+public class MergeSort extends AbstractSort {
     @Override
     protected void sort(int[] arr) {
         mergeSort(arr, 0, arr.length-1);

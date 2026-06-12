@@ -1,4 +1,9 @@
-public class SelectionSort extends SortUtils {
+package sorting.elementary;
+
+import utils.AbstractSort;
+import utils.ArrayUtils;
+
+public class SelectionSort extends AbstractSort {
     @Override
     protected void sort(int[] arr) {
         int i, j;
@@ -7,7 +12,7 @@ public class SelectionSort extends SortUtils {
             for (j = i+1; j < arr.length; j++)
                 if (arr[j] < arr[min])
                     min = j;
-            swap(arr, i, min);
+            ArrayUtils.swap(arr, i, min);
         }
     }
 

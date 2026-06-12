@@ -1,4 +1,8 @@
-public class InsertionSort extends SortUtils {
+package sorting.elementary;
+
+import utils.AbstractSort;
+
+public class InsertionSort extends AbstractSort {
     @Override
     protected void sort(int[] arr) {
         // for (int i = 1; i < arr.length; i++)
