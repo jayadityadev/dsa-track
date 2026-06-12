@@ -1,3 +1,5 @@
+package basics.recursion;
+
 // Problem Statement: Given a number ‘N’, find out the sum of the first N natural numbers .
 
 public class recursion4 {

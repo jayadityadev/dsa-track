@@ -1,3 +1,5 @@
+package basics.recursion;
+
 // Problem Statement: Given a number X,  print its factorial.
 
 public class recursion5 {

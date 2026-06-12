@@ -1,3 +1,5 @@
+package basics.maths;
+
 public class checkArmstrong {
     
     public static boolean check_armstrong(int num) {

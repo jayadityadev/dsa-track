@@ -1,9 +1,14 @@
+package arrays.easy;
+
+import java.util.Arrays;
+import utils.ArrayUtils;
+
 public class SecondLargestElement {
     
     // Approach: By sorting
 
     private static int secondLargestBySorting(int[] arr) {
-        ArrayUtils.sort(arr);
+        Arrays.sort(arr);
         return arr[arr.length-2];
     }
     

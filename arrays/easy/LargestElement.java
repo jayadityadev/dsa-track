@@ -1,3 +1,7 @@
+package arrays.easy;
+
+import utils.ArrayUtils;
+
 public class LargestElement {
 
 	private static int findLargest(int[] arr) {

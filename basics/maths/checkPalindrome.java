@@ -1,3 +1,5 @@
+package basics.maths;
+
 public class checkPalindrome {
     private static boolean check_palindrome(int num) {
         int temp = num;

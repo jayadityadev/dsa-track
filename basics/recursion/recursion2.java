@@ -1,3 +1,5 @@
+package basics.recursion;
+
 // Problem Description: Given an integer N, write a program to print numbers from 1 to N.
 
 public class recursion2 {

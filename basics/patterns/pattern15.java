@@ -1,3 +1,5 @@
+package basics.patterns;
+
 /* Pattern 15
 
 A B C D E 

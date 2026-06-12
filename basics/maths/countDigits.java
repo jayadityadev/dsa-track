@@ -1,3 +1,5 @@
+package basics.maths;
+
 public class countDigits {
     public static int count_digits_via_loop(int num) {
         if (num == 0) return 1;

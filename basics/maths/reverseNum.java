@@ -1,3 +1,5 @@
+package basics.maths;
+
 public class reverseNum {
 
     private static int reverse_number(int num) {

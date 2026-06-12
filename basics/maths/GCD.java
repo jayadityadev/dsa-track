@@ -1,3 +1,5 @@
+package basics.maths;
+
 public class GCD {
     
     public static int greatest_common_divisor(int num1, int num2) {

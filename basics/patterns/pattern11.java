@@ -1,3 +1,5 @@
+package basics.patterns;
+
 /* Pattern 11
 
 1

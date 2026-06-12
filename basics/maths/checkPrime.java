@@ -1,3 +1,5 @@
+package basics.maths;
+
 public class checkPrime {
     public static boolean check_prime(int num) {
         if (num < 2) return false; // handles 0, 1, negatives

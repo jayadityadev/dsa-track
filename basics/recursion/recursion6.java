@@ -1,3 +1,5 @@
+package basics.recursion;
+
 // Problem Statement: You are given an array. The task is to reverse the array and print it.
 
 import java.util.Arrays;
